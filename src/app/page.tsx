@@ -35,8 +35,8 @@ export default function Home() {
         <div>
           {/* Render the array of names */}
           {namesArray.map((name, index) => (
-            <ul>
-              <li key={index}>{name}</li>
+            <ul key={index}>
+              <li>{name}</li>
             </ul>
           ))}
         </div>
